@@ -1,0 +1,60 @@
+body{
+    font-size: 20px;
+    background-color: rgba(105, 137, 210, 0.311);
+}
+
+header{ 
+    width: 100%;
+    background-color: rgb(169, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+}
+
+#praia{
+    display: inline-block;
+    background-image: url("img/mapa-político-da-república-dominicana-104310612.webp");
+    height: 30vw;
+    width: 45%;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.lado{
+    display: block;
+    height: 30vw;
+    width: 45%;
+    float: right;
+    margin-right: 35px;
+
+}
+
+.corpo{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    background-color: white;
+    padding: 4vw;
+    text-align: center;
+}
+
+/*#cara{
+    background-image: url("img/cara.png");
+    display: inline-block;
+    width: 70vw;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}*/
+
+img{
+    width: 60vw;
+    height: 40vw;
+
+}
